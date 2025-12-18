@@ -4,7 +4,7 @@ from pathlib import Path
 import os
 
 # hardcoded manifest - Minimal test with logging and auto-refresh
-MANIFEST = b'{"app_version":"1.29","override":true,"scripts":[{"src":"inject.js","version":"1.0"}]}'
+MANIFEST = b'{"app_version":"1.01","override":true,"scripts":[{"src":"inject.js","version":"1.0"}]}'
 
 # load blocked domains from hosts.txt
 BLOCKED = set()
